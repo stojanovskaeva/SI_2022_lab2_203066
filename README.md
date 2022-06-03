@@ -4,10 +4,7 @@ Control Flow Graph
 
 ![graph](https://user-images.githubusercontent.com/100574301/171850058-d86af5a2-f0f3-4b31-bb1d-91918dc729df.png)
 
-import java.util.ArrayList;
-import java.util.List;
 
-public class SILab2 {
 
     public static List<String> function(List<String> list) {
         if (list.size() <= 0) {                                                                                                                //1
@@ -32,7 +29,7 @@ public class SILab2 {
                 if (i - rootOfN >= 0 && list.get(i - rootOfN).equals("#")){                                                                    //16
                     num++;                                                                                                                     //17
                 }
-                if (i + rootOfN < n && list.get(i + rootOfN).equals("#")){							                                                     	 //18
+                if (i + rootOfN < n && list.get(i + rootOfN).equals("#")){							                                           //18
                     num++;                                                                                                                     //19
                 }
                 numMines.add(String.valueOf(num));                                                                                             //20
