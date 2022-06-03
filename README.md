@@ -29,7 +29,7 @@ Control Flow Graph
                 if (i - rootOfN >= 0 && list.get(i - rootOfN).equals("#")){                                                                    //16
                     num++;                                                                                                                     //17
                 }
-                if (i + rootOfN < n && list.get(i + rootOfN).equals("#")){							                                           //18
+                if (i + rootOfN < n && list.get(i + rootOfN).equals("#")){							                //18
                     num++;                                                                                                                     //19
                 }
                 numMines.add(String.valueOf(num));                                                                                             //20
